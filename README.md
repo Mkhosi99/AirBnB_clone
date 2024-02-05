@@ -283,7 +283,6 @@ python3 unittest -m tests/test_console.py
 
 # 0x00. AirBnB clone - The console Docs
 
-* Weight : 5
 
 ## Concepts
 
