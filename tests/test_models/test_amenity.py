@@ -84,13 +84,13 @@ class TestAmenity_for_saving(unittest.TestCase):
     """Unittests for testing save method of the Amenity class."""
 
     @classmethod
-    def setUp(self):
+    def prepare(self):
         try:
             os.rename("file.json", "tmp")
         except IOError:
             pass
 
-    def tearDown(self):
+    def cleanUp(self):
         try:
             os.remove("file.json")
         except IOError:
