@@ -185,6 +185,5 @@ class TestUser_for_toDict(unittest.TestCase):
             usr.to_dict(None)
 
 
-
 if __name__ == "__main__":
     unittest.main()
