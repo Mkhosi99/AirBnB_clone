@@ -11,7 +11,7 @@ class BaseModel:
     """Defines all common attributes/methods for the subclasses"""
 
     def __init__(self, *args, **kwargs):
-        """The method is designed to initialize the instance of the class.
+        """Method is designed to initialize the instance of the class.
         Args:
             *args (any): Unused.
             **kwargs (dict): Key/value pairs of the attributes.
